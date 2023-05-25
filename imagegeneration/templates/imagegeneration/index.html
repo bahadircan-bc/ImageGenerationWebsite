@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    :root {
+      --appleblack: #1d1d1d;
+      --neutral100: #f5f5f5;
+    }
+    body {
+      background-color: black;
+      padding: 0px;
+    }
+    p {
+      color: var(--neutral100);
+    }
+    .header {
+      background-color: black;
+      width: 80vw;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border-width: 1px;
+    }
+    .header .text {
+      font-size: 64px;
+      font: 64px "MutatorSans", sans-serif;
+    }
+  </style>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <div
+        style="
+          background-color: black; width: 80vw; height: 20vh; display: flex; justify-content: center; align-items: center; border-radius: 10px; border-width: 1px;
+        "
+      >
+        <p style="font-size: 64px; font: 64px 'MutatorSans', sans-serif">
+          Image Generator
+        </p>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50vw;
+          flex-direction: column;
+        "
+      >
+        <p style="font-size: 24px; text-align: center">
+          Use "/height/weight/any" to generate an image with given dimensions
+        </p>
+        <p style="font-size: 20px; text-align: center">e.g. "/640/480/any"</p>
+      </div>
+    </div>
+  </body>
+</html>
